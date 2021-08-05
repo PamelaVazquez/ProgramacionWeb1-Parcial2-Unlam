@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/validaciones.js"></script>
+    <title>Parcial 2</title>
+</head>
+
+<body>
+    <header>
+        <h1>Libreria</h1>
+    </header>
+    <main>
+        <section class="contenedor">
+            <article class="hijos-contenedor">
+                <h2>Consulta de productos</h2>
+
+                <form action="#" name="form" id="form">
+                    <label for="producto">Producto:</label>
+                    <input type="text" id="producto" name="producto">
+
+                    <label for="codigo">Código:</label>
+                    <input type="text" id="codigo" name="codigo">
+
+                    <label for="reCodigo">Repetir código:</label>
+                    <input type="text" id="reCodigo" name="reCodigo">
+
+                    <label for="tipo">Tipo:</label>
+                    <select name="tipo" id="tipo">
+                        <option value="0"></option>
+                        <option value="1">Lapicera</option>
+                        <option value="2">Cuaderno</option>
+                        <option value="3">Lapiz</option>
+                    </select>
+
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email">
+
+                    <input type="submit" value="Enviar">
+                    <div id="mensaje" class="error">
+
+                    </div>
+                </form>
+            </article>
+            <article class="hijos-contenedor">
+                <aside>
+                    <p>Dirección: Florencio Varela 111</p>
+                    <p>Email: parcial2@gmail.com</p>
+                    <p>Telefono: 11-1234-6789</p>
+                </aside>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <h3>Programación Web I – Alumno: Pamela Vazquez – DN: 33.086.952</h3>
+    </footer>
+</body>
+
+</html>
